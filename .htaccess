@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^admin\.etsy2n\.com$
+RewriteRule ^/?$ "https\:\/\/admin\.etsy2n\.com\/admin" [R=301,L]
+
